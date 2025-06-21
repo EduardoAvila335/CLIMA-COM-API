@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clima</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>🌞Clima</h1>
+            <input type="text" id="input"
+            placeholder="Cidade" list="cidades">
+
+            <datalist id="cidades">
+                <option value="Curitiba">
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+            </datalist>
+
+            <button onclick="getClima()">Ver Clima</button>
+            <div id="div">
+            </div>
+        </header>
+        <script src="script.js"></script>
+    </body>
+</html>
